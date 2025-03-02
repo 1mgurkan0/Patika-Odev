@@ -1,0 +1,35 @@
+/******************************   BAŞLIK ve Menüler   ******************************/
+h1{
+    text-align:center;
+    color: darkred;
+
+}
+nav{
+    text-align: center;
+    color: purple;
+}
+a:hover{
+    color:yellow;
+}
+/****************************    İndex.html            **************************/
+.baslik{
+    color: purple;
+    font-size:35px;
+    text-align: center;
+}
+.müzikaletleri{
+    position: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 250px;
+    left: 42%;
+}
+/****************************    ürünlerimiz.html           **************************/
+img{
+    width: 400px;
+    height: 340px;
+}
+.ürüngörselleri{
+    position: absolute;
+    left: 35%;
+
+}
