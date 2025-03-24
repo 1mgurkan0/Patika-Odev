@@ -6,6 +6,7 @@ function newElement(){  // Ekle butonuna tıklanınca item istenilen şekilde ek
     let eklenecekEleman = document.createElement("li") // li etiketi oluşturuyoruz
     if(yeniElemanIcerik.value.trim() !== ""){ // boş etiket oluşmasın diye if ile kontrol ediyoruz
     eklenecekEleman.innerHTML= `${yeniElemanIcerik.value}<span onclick="newElementDelete(event, this)"> x</span>`  // Eklenecek li nin içeriğini ekliyoruz
+    localStorage.setItem("bilgiEkle" , `${yeniElemanIcerik.value}`)
     eklenecekEleman.onclick = function() {  // yeni eklenecek li ye fonksiyon ile li ye onclick ekliyoruz
         newElementClick(eklenecekEleman)
     }
